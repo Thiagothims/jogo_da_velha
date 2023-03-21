@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.square {
+    border: 1px solid #a79e9e;
+    float: left;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    text-align: center;
+    
+} 
+
+.square button {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    font-size: 24pt;
+}
+  
+.board_row {
+    clear: both;
+    content: '';
+    display: table;
+}
+  
+.status {
+    margin-bottom: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+}
+  
+.game_info {
+    margin-left: 20px;
+}
